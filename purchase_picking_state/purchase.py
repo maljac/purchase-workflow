@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # © 2016 Chafique DELLI @ Akretion
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
-
 from openerp import models, fields, api
+from openerp.tools.translate import _
 
 
 class PurchaseOrder(models.Model):
@@ -12,10 +12,10 @@ class PurchaseOrder(models.Model):
     def get_picking_state(self):
         return [
             ('draft', ''),
-            ('cancel', 'Cancelled'),
-            ('not_received', 'Not Received'),
-            ('partially_received', 'Partially Received'),
-            ('done', 'Transferred'),
+            ('cancel', _('Cancelled')),
+            ('not_received', _('Not Received')),
+            ('partially_received', _('Partially Received')),
+            ('done', _('Transferred')),
         ]
 
     @api.multi

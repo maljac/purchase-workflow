@@ -1,55 +1,51 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * purchase_partner_invoice_method
-# 
-# Translators:
+#   * purchase_partner_invoice_method
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: purchase-workflow (8.0)\n"
+"Project-Id-Version: Odoo Server 8.0-20150720\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-08 10:16+0000\n"
-"PO-Revision-Date: 2016-03-08 10:17+0000\n"
+"POT-Creation-Date: 2016-06-10 11:55+0000\n"
+"PO-Revision-Date: 2016-06-10 11:55+0000\n"
 "Last-Translator: <>\n"
-"Language-Team: German (http://www.transifex.com/oca/OCA-purchase-workflow-8-0/language/de/)\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: \n"
 
 #. module: purchase_partner_invoice_method
 #: selection:res.partner,supplier_invoice_method:0
 msgid "Based on Purchase Order lines"
-msgstr ""
+msgstr "Auf Anforderung"
 
 #. module: purchase_partner_invoice_method
 #: selection:res.partner,supplier_invoice_method:0
 msgid "Based on generated draft invoice"
-msgstr ""
+msgstr "Bei Auslieferung"
 
 #. module: purchase_partner_invoice_method
 #: selection:res.partner,supplier_invoice_method:0
 msgid "Based on incoming shipments"
-msgstr ""
+msgstr "Vor Lieferung"
 
 #. module: purchase_partner_invoice_method
 #: model:ir.model,name:purchase_partner_invoice_method.model_res_partner
 msgid "Partner"
-msgstr ""
+msgstr "Partner"
 
 #. module: purchase_partner_invoice_method
 #: model:ir.model,name:purchase_partner_invoice_method.model_purchase_order
 msgid "Purchase Order"
-msgstr "Bestellauftrag"
+msgstr "Bestellung"
 
 #. module: purchase_partner_invoice_method
 #: help:res.partner,supplier_invoice_method:0
-msgid ""
-"Select the default invoicing control for the purchase orders of this "
-"supplier"
-msgstr ""
+msgid "Select the default invoicing control for the purchase orders of this supplier"
+msgstr "Standard Rechnungskontrolle für Bestellungen dieses Lieferanten"
 
 #. module: purchase_partner_invoice_method
 #: field:res.partner,supplier_invoice_method:0
 msgid "Supplier Invoicing Control"
-msgstr ""
+msgstr "Lieferantenrechnungskontrolle"
